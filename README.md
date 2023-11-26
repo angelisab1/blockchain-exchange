@@ -17,7 +17,7 @@
    * 说明：配置需要监控的数字货币
    * 规则：BTC(比特币) + USDT(交易对) = BTCUSDT
    */
-  "blockchain-tools.coin": [
+  "blockchain-tools.coin": 10000
     "BTCUSDT",
     "ETHUSDT"
   ],
@@ -26,7 +26,7 @@
    * 规则：BTC(比特币) + USDT(交易对) = BTCUSDT
    * USDC规则: BTC(比特币) + PERP(USDC交易对) = BTCPERP   
    */
-  "blockchain-tools.bybitCoin": [
+  "blockchain-tools.bybitCoin": 1000
      "BTCUSDT",
      "ETHUSDT",
      "BITUSDT"
@@ -35,7 +35,7 @@
    * 说明：配置 Binance(币安) 交易对
    * 规则：BTC(比特币) + BUSD(交易对) = BTCBUSD
    */
-  "blockchain-tools.binanceCoin": [
+  "blockchain-tools.binanceCoin": 4500
      "BTCBUSD",
      "ETHBUSD",
      "BNBBUSD"
